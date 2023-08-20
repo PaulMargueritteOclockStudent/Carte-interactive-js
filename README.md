@@ -2,7 +2,6 @@
 
 # Interactive Web Maps with JavaScript
 
-![Map Preview](map-preview.png)
 
 This repository provides a simple guide and code samples for creating interactive web maps using JavaScript. Interactive maps can enhance user engagement and provide valuable visual insights into geographic data. This guide covers the basics of setting up a web map using popular libraries like Leaflet.js.
 
