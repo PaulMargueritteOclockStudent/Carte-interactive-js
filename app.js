@@ -6,3 +6,15 @@ var Stadia_OSMBright = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_brigh
 });
 
 Stadia_OSMBright.addTo(map);
+
+var popup = L.popup()
+    .setLatLng([48.856614, 2.3522219])
+    .setContent("Nous sommes basé sur Paris")
+    .openOn(map);
+
+    var circle = L.circle([48.856614, 2.3522219], {
+        color: 'red',
+        fillColor: '#f03',
+        fillOpacity: 0.5,
+        radius: 1500
+    }).addTo(map);
