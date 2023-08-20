@@ -21,6 +21,7 @@ Install Dependencies: If you're using npm, navigate to the project directory and
 npm install leaflet
 
 HTML Setup: Create an HTML file (e.g., index.html) in your project directory. Include the necessary libraries and set up a <div> element to hold the map:
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -33,8 +34,9 @@ HTML Setup: Create an HTML file (e.g., index.html) in your project directory. In
     <script src="main.js"></script>
 </body>
 </html>
-
+```
 JavaScript Code (main.js): Create a JavaScript file (e.g., main.js) in your project directory to initialize and customize your map:
+```
 // Initialize map
 var map = L.map('map').setView([51.505, -0.09], 13);
 
@@ -55,6 +57,7 @@ map.on('click', function(event) {
     console.log("Clicked at: " + event.latlng);
 });
 
+```
 Run the Application: Open the index.html file in a web browser to see your interactive map in action!
 
 Customization
